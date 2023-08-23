@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulários</title>
+</head>
+<body style="background-color:beige;">
+   <h2 style="text-align: center; background-color: bisque;">revisão sobre o desenvolvimento de formulários</h2>
+   <form action="">
+      <fieldset style="width: 100px;">
+         <legend>Cadastro de Usuário</legend>
+         <label for="">Primeiro Nome:</label>
+         <input type="text" id="nome" name="nome">
+         <label for="">Segundo Nome:</label>
+         <input type="text" id="sobrenome" name="nome">
+         <input type="submit" value="Enviar" style="background-color: antiquewhite;">
+      </fieldset>
+   </form>
+   <form action="" method="post">
+      <fieldset style="width: 350px;">
+         <legend>Pesquisa de Satisfação</legend>
+         <h3>O que você achou do site?</h3>
+         <input type="radio" name="site" value="MuitoBom">Muito Bom
+         <input type="radio" name="site" value="Bom">Bom
+         <input type="radio" name="site" value="Regular">Regular
+         <input type="radio" name="site" value="Umlixo">Um lixo
+         <h3>Qual a seção que você mais gostou?</h3>
+         <select name="gostou" id="gostou">
+            <option value="emcartaz">Em cartaz</option>
+            <option value="terror">Terror</option>
+            <option value="acao">Ação</option>
+            <option value="comedia">Comédia</option>
+         </select>
+         <label for="outra">Outra:</label>
+         <input type="text" name="outra" id="outra">
+         <h3>Diga-nos como entrar em contato com você:</h3>
+         <pre>Nome:  <input type="text"></pre>
+         <pre>E-mail: <input type="text" required></pre>
+         <pre>Fone:  <input type="text"></pre>
+         <input type="checkbox"><strong>Quero receber as novidades do site por e-mail</strong>
+         <input type="submit" value="Enivar Dados" style="background-color: antiquewhite;">
+         <input type="reset" value="Limpar Formulário" style="background-color: antiquewhite;">
+      </fieldset>
+   </form>
+</body>
+</html>
