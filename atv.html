@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de novos materiais da aula</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body style="background-color:rgb(255, 255, 255);">
+    <h2 style="text-align: center; background-color: rgb(183, 236, 220);">revisão html :) </h2>
+
+    <fieldset>
+        <table border='2'>
+            <tr>
+                <th style="background-color:rgb(255, 255, 255);" rowspan="1">Autor</th>
+                <th style="background-color:rgb(250, 250, 250);" colspan="3">Música</th>
+
+            <TR>
+                <td rowspan="5">Chico Buarque</td>
+                <td style="background-color:rgb(255, 255, 255);">Nome</td>
+                <td style="background-color:rgb(255, 255, 255);">Letra</td>
+                <td style="background-color:rgb(248, 248, 248);">Cifra</td>
+
+            </tr>
+            <td rowspan="1">A Banda</td>
+            <td>X</td>
+            <td>--</td>
+
+            <tr id="bea">
+                <td>Beatriz</td>
+                <td>--</td>
+                <td>X</td>
+            </tr>
+            <tr id="choro">
+                <td>Choro Bandido</td>
+                <td>--</td>
+                <td>X</td>
+
+
+            </tr>
+        </table>
+    </fieldset>
+
+    <form action="" method="post">
+        <fieldset style="width: 350px;">
+            <legend>Lista de materiais já cadastrados</legend>
+
+            <ul>
+                <li>1.Lápis</li>
+                <li>2.Caneta</li>
+                <li>3.Papel</li>
+                <li>4.Tesoura</li>
+            </ul>
+        </fieldset>
+
+        <form action="" method="post">
+            <fieldset style="width: 350px;">
+                <legend>Cadastrar novo material</legend>
+                <input type="text" name="Nome" value="Nome">
+                <input type="text" name="Preço" value="Preço">
+                <br>
+                <label for="outra">Quantidade:</label>
+                <input type="number" id="quantity" name="outra" id="outra">
+
+            </fieldset>
+            <label for="radio">Devolução: </label>
+            <input type="radio" name="radio" value="sim"> Sim
+            <input type="radio" name="radio" value="nao"> Não
+            <br>
+            <input type="submit" value="Cadastrar" style="background-color: rgb(192, 190, 188);">
+            <input type="reset" value="Limpar" style="background-color: rgb(214, 210, 205);">
+            <br>
+            <fieldset>
+                <table border='2'>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Lápis</th>
+                    </tr>
+                    <tr>
+                        <th>Preço</th>
+                        <th>R$12,13</th>
+                    </tr>
+                    <tr>
+                        <th>Quantidade</th>
+                        <th>200</th>
+                    </tr>
+                    <tr>
+                        <th>Devolção</th>
+                        <th>Sim</th>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+
+        <form action="" method="post">
+            <h3 style="text-align: left; background-color: rgb(189, 143, 83);">SiSTEMA DE GESTÃO ACADÊMICA </h3>
+            <h3><b>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</b></h3>
+
+            <style>
+                label {
+                    margin-right: 10px;
+                    margin-top: 10px;
+                }
+            </style>
+
+
+            <label for="login">Login</label>
+            <input type="text" id="Login" name="Login" id="Login">
+            <br> <br>
+            <label for="senha">Senha</label>
+            <input type="password" id="Senha" name="Senha" id="Senha">
+            <br> <br>
+            <label for="status">Status</label>
+            <select id="status" name="status">
+                <option value="inativo">Inativo</option>
+                <option value="ativo">Ativo</option>
+                <option value="pausado">Pausado</option>
+            </select>
+
+            <br><br>
+
+            <label for="radio">Tipo </label>
+            <input type="radio" name="radio" value="sim"> Técnico
+            <input type="radio" name="radio" value="nao"> Professor
+            <input type="radio" name="radio" value="nao"> Aluno
+
+            <br><br>
+
+            <label for="data">Data de criação:</label>
+            <input type="text" id="data" name="data" placeholder="dia-mes-ano">
+
+
+        </form>
+
+
+        <label for="radio">Perfil </label>
+        <input type="radio" name="radio" value="Convidado"> Convidado
+        <input type="radio" name="radio" value="Administrador"> Administrador
+
+        <br><br>
+
+        <label for="comentario" style="text-align:initial;">Observações</label>
+        <textarea id="comentario" name="comentario"></textarea>
+
+        <input type="checkbox" name="checkbox" value="Compras"> Compras
+        <input type="checkbox" name="checkbox" value="Biblioteca"> Biblioteca
+        <input type="checkbox" name="checkbox" value="Acadêmico"> Acadêmico
+
+        <br> <br>
+        <label for="checkbox">Módulos </label>
+        <input type="checkbox" name="checkbox" value="docs"> Documentação
+        <input type="checkbox" name="checkbox" value="rh"> Recursos Humanos
+
+        <p>
+            <input type="submit" value="Cadastrar" style="background-color: rgb(192, 190, 188);">
+            <input type="reset" value="Excluir" style="background-color: rgb(214, 210, 205);">
+        </p>
+</body>
+
+</html>
