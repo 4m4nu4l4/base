@@ -1,0 +1,18 @@
+.titulo{
+    color: rgb(60, 179, 105);
+    text-align: center;
+    font-weight:100;
+    font-family:sans-serif;
+    margin-left: 40px;
+}
+
+.texto{
+    font-family:sans-serif;
+    font-weight:100;
+    text-align: justify;
+    text-transform:lowercase;
+}
+
+.link{
+    color: rgb(60, 179, 105);
+}
