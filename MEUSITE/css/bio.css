@@ -1,0 +1,43 @@
+#cor_de_fundo{
+  background-color: rgb(240, 210, 255);
+  margin-top: 0%;
+  height: 2000px;
+}
+
+
+.titulo{
+  color: rgb(104, 39, 158);
+  text-align: left;
+  margin-top: 0px;
+  font-weight:90px;
+  font-size: 30px;
+  font-family:'Courier New', Courier, monospace;
+  margin-left: 40px;
+}
+
+.texto{
+  font-family:'Courier New', Courier, monospace;
+  font-weight:40;
+  text-align:left;
+  
+}
+
+.link{
+  color: rgb(255, 14, 14);
+}
+
+.lista {
+  margin-left: 10px;
+  display:grid;
+}
+
+.titulo_lista{
+  color: rgb(104, 39, 158);
+  text-align: left;
+  margin-left: 10px;
+  font-weight:90px;
+  font-size: 30px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
