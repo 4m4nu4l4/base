@@ -4,7 +4,6 @@
   height: 2000px;
 }
 
-
 .titulo{
   color: rgb(104, 39, 158);
   text-align: left;
@@ -41,3 +40,33 @@
 
 }
 
+table {
+  border-collapse: collapse;
+  width: 45%;
+  border: 2px solid rgb(155, 155, 155); /* Borda dupla com 2px de espessura */
+}
+ 
+th, td {
+  border: 2px solid black; /* Borda dupla com 2px de espessura */
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: rgb(240, 210, 255); /* Cor de fundo para as células de cabeçalho */
+}
+
+/* Defina a largura das colunas */
+td:nth-child(1), th:nth-child(1) {
+  width: 50%;
+}
+
+td:nth-child(2), th:nth-child(2) {
+  width: 50%;
+}
+
+
+.container {
+margin-top: 5px;
+margin-left: 5px;
+}
